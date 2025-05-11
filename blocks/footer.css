@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer__copyright {
@@ -10,6 +11,7 @@
     font-family: 'Inter', sans-serif;
     line-height: 14px;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 544px) {

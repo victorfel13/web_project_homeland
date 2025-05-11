@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 148px;
+    align-items: 0;
+    
 
 
 
@@ -17,6 +18,7 @@
 
     font-weight: 900;
     max-width: 830px;
+    margin-left: 148px;
 
 
 }
@@ -27,6 +29,7 @@
     line-height: 1.42;
     font-weight: 400;
     max-width: 738px;
+    margin-left: 148px;
 }
 
 .intro__quote-author {
@@ -36,6 +39,7 @@
     font-weight: 400;
     max-width: 738px;
     text-align: right;
+    margin-left: 148px;
 }
 
 .intro__paragraph {
@@ -45,25 +49,57 @@
     line-height: 1.63;
     font-weight: 400;
     max-width: 722px;
+    margin-left: 148px;
 }
 
 
 @media (max-width: 544px) {
+    .lead {
+    
+        
+    }
     .intro__title {
         font-size: 45px;
+        margin-left: 24px;
+        
     }
 
     .intro__subtitle {
         font-size: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .intro__paragraph {
+        margin-left: 24px;
+            margin-right: 24px;
+            
+    }
+    .intro__quote-author {
+        margin-left: 24px;
+            margin-right: 24px;
     }
 }
 
 @media (max-width: 1024px) {
     .intro__title {
         font-size: 32px;
+        margin-left: 24px;
+            margin-right: 24px;
     }
 
     .intro__subtitle {
         font-size: 24px;
+margin-left: 24px;
+    margin-right: 24px;
+        
+        
+    }
+    .intro__paragraph {
+        margin-left: 24px;
+            margin-right: 24px;
+    }
+    .intro__quote-author {
+margin-left: 24px;
+    margin-right: 24px;
     }
 }
