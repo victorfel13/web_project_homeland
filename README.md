@@ -10,4 +10,5 @@ El proyecto es una página web que recopila fotos e historias de profesionales d
 Tecnologías
 Para este proyecto utilize las media queries y la estructura BEM, además de que se usó Figma como brief.
 
-4. l enlace a GitHub Pages
+4. enlace a GitHub Pages
+   https://victorfel13.github.io/web_project_homeland/
