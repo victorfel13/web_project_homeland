@@ -1,8 +1,7 @@
 .intro {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-left: 230px;
+   margin-left: 220px;
 
 }
 
@@ -49,49 +48,48 @@
 
 
 @media (max-width: 544px) {
-    .lead {
+    .intro {
     
-        
+        margin-left: 24px;
+    margin-left: 24px;
     }
     .intro__title {
         font-size: 45px;
-        margin-left: 24px;
+    
         
     }
 
     .intro__subtitle {
         font-size: 24px;
-        margin-left: 24px;
-        margin-right: 24px;
+       
     }
     .intro__paragraph {
-        margin-left: 24px;
-            margin-right: 24px;
+      
             
     }
     .intro__quote-author {
-        margin-left: 24px;
-            margin-right: 24px;
+      
     }
 }
 
 @media (max-width: 1024px) {
+
+    .intro {
+margin-left: 24px;
+    margin-right: 24px;
+    }
     .intro__title {
         font-size: 32px;
-        margin-left: 24px;
-            margin-right: 24px;
+       
     }
 
     .intro__subtitle {
         font-size: 24px;
-margin-left: 24px;
-    margin-right: 24px;
-        
+
         
     }
     .intro__paragraph {
-        margin-left: 24px;
-            margin-right: 24px;
+     
     }
     .intro__quote-author {
 margin-left: 24px;
