@@ -1,0 +1,27 @@
+.header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    width: 254.84px;
+    margin-top: 34px;
+
+}
+
+@media (max-width: 544px) {
+    .header__logo {
+        width: 254px;
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__logo {
+        width: 188px;
+        margin-top: 28px;
+    }
+}

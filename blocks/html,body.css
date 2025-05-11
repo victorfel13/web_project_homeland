@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2C2F;
+    color: white;
+}
+
+.page {
+    max-width: 1280px;
+    max-height: 2008px;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    color: white;
+
+
+}

@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+@media (max-width: 544px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__copyright {
+        font-size: 14px;
+    }
+}
