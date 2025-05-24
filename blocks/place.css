@@ -8,9 +8,10 @@
 
 .place {
     display: grid;
-    grid-template-columns: 1fr 484px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 152px 460px auto;
-    gap: 40px;
+   column-gap: 0;
+    row-gap: 40px;
     padding: 5%;
     justify-self: center;
 }
