@@ -56,13 +56,14 @@
 }
 
 .place__frame {
-    background: linear-gradient(to right, #0278FE, #003A7B);
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    box-shadow: 5px 5px 10px #00000040;
+    border-radius: 5px ;
     max-width: 289px;
     height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid transparent;
     border-radius: 6px;
     transition: border 0.3s ease;
     cursor: pointer;
