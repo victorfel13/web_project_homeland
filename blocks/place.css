@@ -74,7 +74,7 @@
     border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-.place__paragraph--frame {
+.place__frame-text {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -202,7 +202,7 @@
         align-self: center;
     }
 
-    .place__paragraph--frame {
+    .place__frame-text {
         font-size: 16px;
     }
 
